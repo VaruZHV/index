@@ -1,0 +1,489 @@
+<html lang="en"><head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+  <title>product page</title>
+</head>
+<body class="bg-info">
+
+  <div class="container-fluid bg-info shadow-lg">
+      <div class="row align-items-center p-2">
+          <div class="col-md-3  d-none d-md-block text-white h6">+374 91-641-689</div>
+          <div class="col-md-3  d-none d-md-block  text-center text-white h3 ">Welcome</div>
+          <div class="col-6 col-md-2  d-block "> 
+                      <select class="custom-select bg-info text-white shadow-lg border-0">
+                          <option class="h6">USD</option>
+                          <option class="h6">RUB</option>
+                          <option class="h6">AMD</option>
+                      </select>
+          </div>
+          <div class=" col-6 col-md-2 d-block ">
+                      <select class="custom-select bg-info shadow-lg text-white border-0">
+                          <option class="h6">EN</option>
+                          <option class="h6">RU</option>
+                          <option class="h6">AM</option>
+                      </select>
+          </div>
+          <div class="col-md-2 col-lg-2  d-none d-md-block p-2">
+           <button class="btn bg-info text-white shadow-lg ">Wishlist 
+            <div class="badge badge-info">0</div>
+           </button>
+          </div>
+         </div> 
+      </div>
+      <div class="row mr-0 p-2 align-items-center bg-info">
+          <div class="col-6 col-md-2 ">
+              <a href="#" class="link  h2 ml-1 text-white">icon</a>
+            </div>
+            <div class=" d-none col-md-6 d-md-block ">
+              <form class="form-inline float-right mr-3">
+              <input class="form-control mr-sm-2 bg-white border-white shadow-lg" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn  my-2 my-sm-0  bg-info text-white shadow-lg" type="submit">Search</button>
+            </form>
+            </div>
+            <div class="col-6 col-md-4 pr-3 ">
+               <div class="dropdown float-right ">
+                <button class="btn text-white dropdown-toggle shadow-lg" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  My account
+                </button>
+                <div class="dropdown-menu dropdown-menu-right " aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="" data-toggle="modal" data-target="#first">Login</a>
+                  <a class="dropdown-item" href="" data-toggle="modal" data-target="#sec">Register</a>
+                  <a class="dropdown-item" href="">My Orders</a>
+                  <a class="dropdown-item" href="">Account Settings</a>
+                </div>
+              </div>
+            </div>
+      </div>
+      <div class="row bg-info mr-0 shadow-lg">
+          <div class="col-12 p-0">
+              <nav class="navbar navbar-expand-xl navbar-dark">
+                  <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="outline: none; border: none;">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+              
+                  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto ml-auto ">
+                  
+                  
+                       <li class="nav-item dropdown text-center">
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                          category1
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                          <a class="dropdown-item" href="#">subcategory1</a>
+                          <a class="dropdown-item" href="#">subcategory2</a>
+                          <a class="dropdown-item" href="#">subcategory3</a>
+                        </div>
+                      </li>
+                       <li class="nav-item dropdown text-center">
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                          category2
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                          <a class="dropdown-item" href="#">subcategory1</a>
+                          <a class="dropdown-item" href="#">subcategory2</a>
+                          <a class="dropdown-item" href="#">subcategory3</a>
+                        </div>
+                      </li>
+                       <li class="nav-item dropdown text-center">
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                          category3
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                          <a class="dropdown-item" href="#">subcategory1</a>
+                          <a class="dropdown-item" href="#">subcategory2</a>
+                          <a class="dropdown-item" href="#">subcategory3</a>
+                        </div>
+                      </li>
+                   </ul>
+                   </div>
+              </nav>
+          </div>     
+        </div>
+        <div class="modal fade" id="first" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <button type="submit" class="btn btn-primary">log in</button>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary " data-dismiss="modal" data-toggle="modal" data-target="#sec">register</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="sec" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                      <label for="validationDefault01">First name</label>
+                      <input type="text" class="form-control" id="validationDefault01" value="Mark" required="">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="validationDefault02">Last name</label>
+                      <input type="text" class="form-control" id="validationDefault02" value="Otto" required="">
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                      <label for="validationDefault03">City</label>
+                      <input type="text" class="form-control" id="validationDefault03" required="">
+                    </div>
+                    <div class="col-md-3 mb-3">
+                      <label for="validationDefault04">State</label>
+                      <select class="custom-select" id="validationDefault04" required="">
+                        <option selected="" disabled="" value="">Choose...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                      <label for="validationDefault05">Zip</label>
+                      <input type="text" class="form-control" id="validationDefault05" required="">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required="">
+                      <label class="form-check-label" for="invalidCheck2">
+                        Agree to terms and conditions
+                      </label>
+                    </div>
+                  </div>
+                  <button class="btn btn-primary" type="submit">Submit form</button>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div> 
+      </div>
+      <div class="container-fluid mt-2 d-flex align-items-center justify-content-center m-0 p-0">
+          <div class="row col align-items-center p-0 m-0">
+              <nav aria-label="breadcrumb" class=" col-12 col-lg-8 p-0">
+                  <ol class="breadcrumb mb-0 shadow-lg bg-info">
+                    <li class="breadcrumb-item "><a href="index.html" class="text-white h6 mb-0">Home</a></li>
+                    <li class="breadcrumb-item "><a href="home_page.html" class="text-white h6 mb-0">Categories</a></li>
+                    <li aria-current="page " class="text-light breadcrumb-item active h6 mb-0">Supernova</li>
+                  </ol>
+                </nav>
+                <span class="d-flex align-items-center col-12 justify-content-lg-end col-lg-2 text-white mt-2 h5">Sort by:</span>
+                <select class="mt-2 custom-select   custom-select-md bg-info shadow-lg text-white border-0 col-12 col-lg-2 ml-auto">
+                  <option class="h6">Price high to low</option>
+                  <option class="h6">low</option>
+                  <option class="h6">high</option>
+                </select>
+          </div>
+          </div>
+          <div class="container-fluid">
+              <div class="row h3 text-white pl-5 mt-3">Adidas 'Supernova'</div>
+
+              <div class="row justify-content-start mt-4">
+                <div class="col-4 col-md-3 col-xl-2  pr-0 border border-top-0 border-bottom-0 border-right-0">
+                  <div class="col-10 h-100 d-flex flex-column justify-content-center">
+                  <a data-fancybox="gallery" href="https://assets.adidas.com/images/h_320,f_auto,q_auto:sensitive,fl_lossy/34b93431766e46358025ab9600ec29de_9366/Supernova_Shoes_Pink_FV6032_FV6032_010_hover_standard.jpg">
+                    <img class="img-fluid" src="https://assets.adidas.com/images/h_320,f_auto,q_auto:sensitive,fl_lossy/34b93431766e46358025ab9600ec29de_9366/Supernova_Shoes_Pink_FV6032_FV6032_010_hover_standard.jpg"></a>
+                  <a data-fancybox="gallery" href="https://assets.adidas.com/images/h_320,f_auto,q_auto:sensitive,fl_lossy/48c8fbd10c1a4335977cab9700a240cc_9366/Supernova_Shoes_Pink_FV6032_FV6032_03_standard.jpg">
+                    <img class="img-fluid" src="https://assets.adidas.com/images/h_320,f_auto,q_auto:sensitive,fl_lossy/48c8fbd10c1a4335977cab9700a240cc_9366/Supernova_Shoes_Pink_FV6032_FV6032_03_standard.jpg"></a>
+                  <a data-fancybox="gallery" href="https://assets.adidas.com/images/h_320,f_auto,q_auto:sensitive,fl_lossy/e69a249c0ed04252ad5fab9700a24d2a_9366/Supernova_Shoes_Pink_FV6032_FV6032_05_standard.jpg">
+                    <img class="img-fluid" src="https://assets.adidas.com/images/h_320,f_auto,q_auto:sensitive,fl_lossy/e69a249c0ed04252ad5fab9700a24d2a_9366/Supernova_Shoes_Pink_FV6032_FV6032_05_standard.jpg"></a>
+                  <a data-fancybox="gallery" href="https://assets.adidas.com/images/h_320,f_auto,q_auto:sensitive,fl_lossy/09e0e66473ad4e03845bab9700a23153_9366/Supernova_Shoes_Pink_FV6032_FV6032_06_standard.jpg">
+                    <img class="img-fluid" src="https://assets.adidas.com/images/h_320,f_auto,q_auto:sensitive,fl_lossy/09e0e66473ad4e03845bab9700a23153_9366/Supernova_Shoes_Pink_FV6032_FV6032_06_standard.jpg"></a>
+                  </div>
+                </div>
+                <div class="col-8 col-md-9 col-xl-6 align-self-center border-left">
+                  <a data-fancybox="gallery" href="https://assets.adidas.com/images/w_600,f_auto,q_auto/33bd5c2572f84d8d81afab9700a2461f_9366/Supernova_Shoes_Pink_FV6032.jpg">
+                    <img class="img-fluid" src="https://assets.adidas.com/images/w_600,f_auto,q_auto/33bd5c2572f84d8d81afab9700a2461f_9366/Supernova_Shoes_Pink_FV6032.jpg"></a>
+              </div>
+              <div class="col-xl-4 col-lg-12 mt-3">
+
+                <h5 class="flex-align-center  text-white h3">
+                    100$
+                </h5>
+              
+                <div class="row">
+
+                  
+                    <div class="col">
+                        <div class="input-group mb-2 shadow-lg">
+                            <div class="input-group-prepend bg-info">
+                                <div class="input-group-text text-white bg-info border-0">Quantity</div>
+                            </div>
+                            <input type="text" class="form-control bg-info border-0" id="inlineFormInputGroup" placeholder="Max 5">
+                        </div>
+                    </div>
+                    <div class="col-lg col-md">
+                      <button type="button" class="btn btn-info shadow-lg p-2 px-3 h6">Add to Cart</button>
+                    </div>
+
+                </div>
+                <h5 class="text-white">Size</h5>
+
+                <div class="row">
+                    <div class="col-auto">
+                        <form>
+                            <div class="radio">
+                              <div class="custom-control custom-switch">
+                                <input type="checkbox" class="custom-control-input" id="customSwitch7">
+                                <label class="custom-control-label text-white" for="customSwitch7">30</label>
+                            </div>
+                            </div>
+                    </form></div>
+                    <div class="col-auto">
+                        <div class="radio">
+                          <div class="custom-control custom-switch">
+                            <input type="checkbox" class="custom-control-input" id="customSwitch8">
+                            <label class="custom-control-label text-white" for="customSwitch8">35</label>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-auto">                 
+                            <div class="radio">
+                                <div class="custom-control custom-switch">
+                                  <input type="checkbox" class="custom-control-input" id="customSwitch9">
+                                  <label class="custom-control-label text-white" for="customSwitch9">40</label>
+                              </div>
+                            </div>
+                    </div>                     
+                </div>  
+                <h5 class="text-white">Color</h5>
+                <div class="row">
+                    <div class="col-auto">
+                        <form>
+                            <div class="radio">
+                              <div class="custom-control custom-switch">
+                                <input type="checkbox" class="custom-control-input" id="customSwitch10">
+                                <label class="custom-control-label text-white" for="customSwitch10">black</label>
+                              </div>
+                            </div>
+                    </form></div>
+                    <div class="col-auto">
+                        <div class="radio">
+                          <div class="custom-control custom-switch">
+                            <input type="checkbox" class="custom-control-input" id="customSwitch11">
+                            <label class="custom-control-label text-white" for="customSwitch11">red</label>
+                          </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            
+            <p>
+              <a class="btn btn-info shadow-lg ml-3" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                about shoes
+              </a>
+              <button class="btn btn-info shadow-lg" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                overview
+              </button>
+            </p>
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body bg-info border-0 shadow-lg text-white">
+                When you're ready to get serious about running, you're ready for adidas Supernova Shoes. They're designed with a mesh upper that has extra airflow where you sweat the most. Flexible cushioning in the forefoot combines with responsive cushioning in the heel to give you a comfortable ride.
+              </div>
+            </div>
+
+            <div class="row text-center d-flex justify-content-center col-12 m-0 p-0 mt-4">
+              <div class="col-12 text-white mb-2 h1">You may also loke</div>  
+            
+            <div class="card col12 col-md-auto bg-white shadow-lg m-1 p-0 py-1" style="width: 15rem;">
+              <img src="https://assets.adidas.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/c31fc0e1f5a04b809657ab0b00ada715_9366/ultraboost-20-shoes.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-white text-info">ADIDAS</h5>
+                <p class="card-text text-info">$100</p>
+                <a href="#" class="btn btn-info">Buy</a>
+                <a href="#" class="btn btn-info">add to wishlist</a>
+            
+              </div>
+            </div>
+            
+            <div class="card col12 col-md-auto bg-white shadow-lg m-1 p-0 py-1" style="width: 15rem;">
+              <img src="https://assets.adidas.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/c31fc0e1f5a04b809657ab0b00ada715_9366/ultraboost-20-shoes.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-white text-info">ADIDAS</h5>
+                <p class="card-text text-info">$100</p>
+                <a href="#" class="btn btn-info">Buy</a>
+                <a href="#" class="btn btn-info">add to wishlist</a>
+            
+              </div>
+            </div>
+            
+            <div class="card col12 col-md-auto bg-white shadow-lg m-1 p-0 py-1" style="width: 15rem;">
+              <img src="https://assets.adidas.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/c31fc0e1f5a04b809657ab0b00ada715_9366/ultraboost-20-shoes.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-white text-info">ADIDAS</h5>
+                <p class="card-text text-info">$100</p>
+                <a href="#" class="btn btn-info">Buy</a>
+                <a href="#" class="btn btn-info">add to wishlist</a>
+            
+              </div>
+            </div>
+            <div class="card col12 col-md-auto bg-white shadow-lg m-1 p-0 py-1" style="width: 15rem;">
+              <img src="https://assets.adidas.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/c31fc0e1f5a04b809657ab0b00ada715_9366/ultraboost-20-shoes.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-white text-info">ADIDAS</h5>
+                <p class="card-text text-info">$100</p>
+                <a href="#" class="btn btn-info">Buy</a>
+                <a href="#" class="btn btn-info">add to wishlist</a>
+            
+              </div>
+            </div>
+            <div class="card col12 col-md-auto bg-white shadow-lg m-1 p-0 py-1" style="width: 15rem;">
+              <img src="https://assets.adidas.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/c31fc0e1f5a04b809657ab0b00ada715_9366/ultraboost-20-shoes.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-white text-info">ADIDAS</h5>
+                <p class="card-text text-info">$100</p>
+                <a href="#" class="btn btn-info">Buy</a>
+                <a href="#" class="btn btn-info">add to wishlist</a>
+            
+              </div>
+            </div>
+            <div class="card col12 col-md-auto bg-white shadow-lg m-1 p-0 py-1" style="width: 15rem;">
+              <img src="https://assets.adidas.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/c31fc0e1f5a04b809657ab0b00ada715_9366/ultraboost-20-shoes.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-white text-info">ADIDAS</h5>
+                <p class="card-text text-info">$100</p>
+                <a href="#" class="btn btn-info">Buy</a>
+                <a href="#" class="btn btn-info">add to wishlist</a>
+            
+              </div>
+            </div>
+
+            </div>
+
+            </div>
+            <nav aria-label="Page navigation example " class="mt-3 ">
+              <ul class="pagination justify-content-center">
+                <li class="page-item disabled shadow-lg">
+                  <a class="page-link bg-info border-0 text-white" href="#" tabindex="-1">Previous</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link bg-info border-0 shadow-lg text-white" href="index.html">
+                      1
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link border-0 shadow-lg text-white bg-info" href="home_page.html">2</a></li>
+               <li class="page-item active border-0 shadow-lg">
+                  <span class="page-link">
+                     3
+                  <span class="sr-only">(current)</span>
+                  </span>
+                  </li>  
+                    
+                  <li class="page-item">
+                   <a class="page-link bg-info border-0 shadow-lg bg-info text-white" href="product_page.html">Next</a>
+                 </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="container-fluid bg-info">
+            <div class="row text-center text-uppercase  border-right-0 border-top-0 border-left-0 border border-white">
+                <div class="col-12 col-md-3 d-flex align-items-center justify-content-center h4 p-2 mb-0"><a href="" class="text-white nav-link active">contact us</a> </div>
+                <div class="col-12 col-md-3 d-flex align-items-center justify-content-center h4 p-2 mb-0"><a href="" class="text-white nav-link active">live chat</a></div>
+                <div class="col-12 col-md-3 d-flex align-items-center justify-content-center h4 p-2 mb-0"><a href="" class="text-white nav-link active">shiping</a></div>
+                <div class="col-12 col-md-3 d-flex align-items-center justify-content-center h4 p-2 mb-0"><a href="" class="text-white nav-link active">term &amp; conditions</a></div>
+            </div>
+    
+            <div class="row text-center shadow-lg">   
+                <div class="col d-none d-md-block">
+                 <ul class="list-group list-group-flush">
+                   <li class="list-group-item text-white bg-info border-0"><a href="" class="text-decoration-none text-white h5">Group</a></li>
+                   <li class="list-group-item text-white bg-info border-0"><a href="" class="text-decoration-none text-white h5">link1</a></li>
+                   <li class="list-group-item text-white bg-info border-0"><a href="" class="text-decoration-none text-white h5">link2</a></li>
+                   <li class="list-group-item text-white bg-info border-0"><a href="" class="text-decoration-none text-white h5">link3</a></li>
+                   <li class="list-group-item text-white bg-info border-0"><a href="" class="text-decoration-none text-white h5">link4</a></li>
+                 </ul>
+               </div>
+               <div class="col d-none d-md-block">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item text-white bg-info border-0"><a href="" class="text-decoration-none text-white h5">Group</a></li>
+                  <li class="list-group-item text-white bg-info border-0"><a href="" class="text-decoration-none text-white h5">link1</a></li>
+                  <li class="list-group-item text-white bg-info border-0"><a href="" class="text-decoration-none text-white h5">link2</a></li>
+                  <li class="list-group-item text-white bg-info border-0"><a href="" class="text-decoration-none text-white h5">link3</a></li>
+                  <li class="list-group-item text-white bg-info border-0"><a href="" class="text-decoration-none text-white h5">link4</a></li>
+                </ul>
+              </div>
+              <div class="col d-none d-md-block">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item text-white bg-info border-0"><a href="" class="text-decoration-none text-white h5">Group</a></li>
+                  <li class="list-group-item text-white bg-info border-0"><a href="" class="text-decoration-none text-white h5">link1</a></li>
+                  <li class="list-group-item text-white bg-info border-0"><a href="" class="text-decoration-none text-white h5">link2</a></li>
+                  <li class="list-group-item text-white bg-info border-0"><a href="" class="text-decoration-none text-white h5">link3</a></li>
+                  <li class="list-group-item text-white bg-info border-0"><a href="" class="text-decoration-none text-white h5">link4</a></li>
+                </ul>
+              </div>
+              <div class="col d-none d-md-block">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item text-white bg-info border-0"><a href="" class="text-decoration-none text-white h5">Group</a></li>
+                  <li class="list-group-item text-white bg-info border-0"><a href="" class="text-decoration-none text-white h5">link1</a></li>
+                  <li class="list-group-item text-white bg-info border-0"><a href="" class="text-decoration-none text-white h5">link2</a></li>
+                  <li class="list-group-item text-white bg-info border-0"><a href="" class="text-decoration-none text-white h5">link3</a></li>
+                  <li class="list-group-item text-white bg-info border-0"><a href="" class="text-decoration-none text-white h5">link4</a></li>
+                </ul>
+              </div>
+              <div class="col d-none d-md-block">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item text-white bg-info border-0"><a href="" class="text-decoration-none text-white h5">Group</a></li>
+                  <li class="list-group-item text-white bg-info border-0"><a href="" class="text-decoration-none text-white h5">link1</a></li>
+                  <li class="list-group-item text-white bg-info border-0"><a href="" class="text-decoration-none text-white h5">link2</a></li>
+                  <li class="list-group-item text-white bg-info border-0"><a href="" class="text-decoration-none text-white h5">link3</a></li>
+                  <li class="list-group-item text-white bg-info border-0"><a href="" class="text-decoration-none text-white h5">link4</a></li>
+                </ul>
+              </div>
+             </div>
+    
+            <div class="row bg-ingo text-white border-right-0 border-bottom-0 border-left-0 border border-white">
+                <div class="col-12 d-flex align-items-center justify-content-center">
+                    <a href="" class="ml-1"><img src="https://img.icons8.com/nolan/2x/facebook-new.png" alt="" width="50" height="50"></a>
+                    <a href="" class="ml-1"><img src="https://img.icons8.com/nolan/2x/instagram-new.png" alt="" width="50" height="50"></a>
+                    <a href="" class="ml-1"><img src="https://img.icons8.com/nolan/2x/youtube-squared.png" alt="" width="50" height="50"></a>
+                    <a href="" class="ml-1"><img src="https://img.icons8.com/nolan/2x/twitter.png" alt="" width="50" height="50"></a>
+                </div>
+                <div class="col-12 d-flex align-items-center justify-content-center p-3 h5">
+                    Varuzhan Gevorgyan
+                </div> 
+            </div>
+        </div>
+          
+<!-- https://assets.adidas.com/images/h_320,f_auto,q_auto:sensitive,fl_lossy/cd0389a5b75e44aa8dc1ab9700a22c01_9366/Supernova_Shoes_Pink_FV6032_FV6032_01_standard.jpg -->
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+</body></html>
